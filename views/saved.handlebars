@@ -1,0 +1,9 @@
+<h2>Saved Movies</h2>
+<hr/>
+{{#each data}}
+<h3 data-id='{{_id}}'>{{headline}}</h3>
+{{link}}<br/>
+{{summary}}<br/>
+<button data-id='{{_id}}' id='delmovie'>Delete Movie</button><br/>
+<hr/>
+{{/each}}

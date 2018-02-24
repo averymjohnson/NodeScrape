@@ -1,0 +1,9 @@
+<h2>It's Movie Night!</h2>
+<hr/>
+{{#each data}}
+<h3 data-id='{{id}}'>{{headline}}</h3>
+{{link}}<br/>
+{{summary}}<br/>
+<button data-id='{{_id}}' id='savemovie'>Save Movie</button><br/>
+<hr/>
+{{/each}}
